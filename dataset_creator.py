@@ -158,3 +158,7 @@ class trainTestandValidationDataCreator:
             else:
                 dest = os.path.join(val_dataset_folder_path,'1',img)
                 shutil.copyfile(src, dest)
+
+
+    def createDatasetForRegression(self):
+        
