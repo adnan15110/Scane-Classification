@@ -7,7 +7,7 @@ from dataset_creator import trainTestandValidationDataCreator
 # 	os.path.join(os.getcwd(),'labels-bak.txt'))
 
 t_class = trainTestandValidationDataCreator()
-t_class.createDatasetForClassificationProblem()
+t_class.createDatasetForRegression()
 
 
 # d = DataReader('dataset.csv')
